@@ -1,0 +1,32 @@
+{
+  "name": "WIP",
+  "version": "1.0.0",
+  "author": "graileanu",
+  "description": "WIP (wip.co) integration — log completed todos, browse users & projects, react, and comment.",
+  "tools": [
+    "wip_get_me",
+    "wip_get_my_todos",
+    "wip_get_my_projects",
+    "wip_create_todo",
+    "wip_get_todo",
+    "wip_get_todo_comments",
+    "wip_get_user",
+    "wip_get_user_todos",
+    "wip_get_user_projects",
+    "wip_get_project",
+    "wip_get_project_todos",
+    "wip_create_reaction",
+    "wip_delete_reaction",
+    "wip_create_comment",
+    "wip_update_comment",
+    "wip_delete_comment"
+  ],
+  "uiHints": {
+    "apiKey": {
+      "label": "API Key",
+      "type": "password",
+      "required": true,
+      "description": "Your WIP API key from https://wip.co/api"
+    }
+  }
+}

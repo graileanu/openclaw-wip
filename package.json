@@ -1,0 +1,32 @@
+{
+  "name": "openclaw-wip",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "WIP (wip.co) integration for OpenClaw — log todos, browse projects & users, react, and comment",
+  "author": "graileanu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graileanu/openclaw-wip"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "dependencies": {
+    "@sinclair/typebox": "0.34.47"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "wip",
+    "wip.co",
+    "todos",
+    "maker",
+    "productivity"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

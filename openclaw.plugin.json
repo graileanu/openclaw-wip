@@ -1,0 +1,16 @@
+{
+  "id": "wip",
+  "name": "WIP",
+  "description": "WIP (wip.co) integration — log completed todos, browse users & projects, react, and comment.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": { "type": "string" }
+    },
+    "required": ["apiKey"]
+  },
+  "uiHints": {
+    "apiKey": { "label": "API Key", "sensitive": true, "help": "WIP API key from https://wip.co/api (Manage API Keys)" }
+  }
+}
